@@ -1,9 +1,9 @@
-# 🏦 Home Credit Risk Analysis
+# Home Credit Risk Analysis
 ### Fair Credit Scoring Using Machine Learning & Power BI
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project builds a machine learning pipeline to predict loan default risk for credit applicants, using demographic and financial data from the Home Credit Default Risk dataset. Beyond predictive performance, the project includes a **fairness audit** to detect and measure gender bias in approval decisions — ensuring the model treats all applicants equitably.
 
@@ -11,13 +11,13 @@ Results are presented through an **interactive 3-page Power BI dashboard** cover
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Traditional credit scoring excludes millions of applicants who lack formal financial documentation. This project explores whether machine learning models can reliably predict creditworthiness from demographic and financial behaviour data — while remaining fair across gender groups.
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
 home-credit-risk-analysis/
@@ -36,7 +36,7 @@ home-credit-risk-analysis/
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 **Source:** [Home Credit Default Risk — Kaggle](https://www.kaggle.com/datasets/marcuskuder/home-credit-default-risk-dataset)
 
@@ -45,11 +45,11 @@ home-credit-risk-analysis/
 - **Target variable:** `TARGET` (1 = defaulted, 0 = repaid)
 - **Default rate:** ~8% (imbalanced dataset — handled with SMOTE)
 
-> ⚠️ Dataset not included in this repo due to file size. Download `HC_application_train.csv` from the Kaggle link above and place it in the project root before running the notebook.
+> Dataset not included in this repo due to file size. Download `HC_application_train.csv` from the Kaggle link above and place it in the project root before running the notebook.
 
 ---
 
-## 🤖 Models Trained
+## Models Trained
 
 | Model | AUC-ROC | KS Statistic | Gini |
 |---|---|---|---|
@@ -60,7 +60,7 @@ home-credit-risk-analysis/
 
 ---
 
-## ⚖️ Fairness Audit
+## Fairness Audit
 
 A critical component of this project is evaluating whether the model makes fair predictions across gender groups.
 
@@ -76,7 +76,7 @@ A critical component of this project is evaluating whether the model makes fair 
 
 ---
 
-## 📈 Power BI Dashboard
+## Power BI Dashboard
 
 The interactive dashboard has 3 pages:
 
@@ -100,7 +100,7 @@ The interactive dashboard has 3 pages:
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Purpose |
 |---|---|
@@ -115,7 +115,7 @@ The interactive dashboard has 3 pages:
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Clone this repository
 ```bash
@@ -141,7 +141,7 @@ jupyter notebook microfinance_full_pipeline.ipynb
 
 ---
 
-## 📋 Key Findings
+## Key Findings
 
 - XGBoost achieved an AUC-ROC of **~0.76**, significantly above the 0.70 benchmark for credit scoring
 - KS Statistic of **~0.31** confirms strong separation between defaulters and non-defaulters
@@ -150,14 +150,6 @@ jupyter notebook microfinance_full_pipeline.ipynb
 
 ---
 
-## 👩‍💻 Author
+## Author
 
-**Vanshika** — Final Year B.Tech CSE (Data Science), MRECW Hyderabad
-
-📧 Connect on [LinkedIn](#) | 🌐 [GitHub](#)
-
----
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
+**Vanshika Madireddi** — 4th Year B.Tech CSE (Data Science), Malla Reddy Engineering College for Women, Hyderabad
